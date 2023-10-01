@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather-App</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/all.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="weather-side">
+      <div class="weather-gradient"></div>
+      <div class="date-container">
+        <h2 class="date-dayname"></h2><span class="date-day"></span><i class="fas fa-location-dot"
+          data-feather="map-pin"></i><span class="user-location-city">Choose your location</span><span class="user-location-country"></span>
+      </div>
+      <div class="weather-container">
+        <img class="weather-icon" />
+        <h1 class="weather-temp">0</h1>
+        <div>
+          <h3 class="weather-desc">Change the Location</h3>
+          <span class="weather-desc-more"></span>
+        </div>
+      </div>
+    </div>
+    <div class="info-side">
+      <div class="today-info-container">
+        <div class="today-info">
+          <div class="clouds"> <span class="title">CLOUDS</span><span class="clouds-value value"></span>
+            <div class="clear"></div>
+          </div>
+          <div class="humidity"> <span class="title">HUMIDITY</span><span class="humidity-value value"></span>
+            <div class="clear"></div>
+          </div>
+          <div class="wind"> <span class="title">WIND</span><span class="wind-value value">m/s</span>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+      <div class="week-container">
+        <ul class="week-list">
+          <li class="active">
+            <img class="first-weather-icon weather-icons" />
+            <span class="fday-name"></span>
+            <span class="fday-temp day-temp">0</span>
+          </li>
+          <li>
+            <img class="second-weather-icon weather-icons" />
+            <span class="sday-name"></span>
+            <span class="sday-temp day-temp">0</span>
+          </li>
+          <li>
+            <img class="third-weather-icon weather-icons" />
+            <span class="tday-name"></span>
+            <span class="tday-temp day-temp">0</span>
+          </li>
+          <li>
+            <img class="fourth-weather-icon weather-icons" />
+            <span class="foday-name"></span>
+            <span class="foday-temp day-temp">0</span>
+          </li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+      <div class="location-container">
+        <button class="location-button"> <i class="fas fa-location-dot" style="margin-right: 5px" data-feather="map-pin"></i><span>Change location</span></button>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
