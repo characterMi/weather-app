@@ -59,7 +59,7 @@ date_El.innerHTML = `${date_day} / ${date_month + 1} / ${date_year}`;
 
 
 const location_button = document.querySelector(".location-button"),
-    apiKey = "f6ed4e5bc805e5f8b7a9fd20dc75e76b";
+    apiKey = "9fe670c445a03bd4b5d86ef2d523ac44";
 
 
 location_button.addEventListener("click", (e) => {
